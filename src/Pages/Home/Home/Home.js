@@ -1,4 +1,6 @@
 import React from "react";
+import Biography from "../../Biography/Biography";
+import PlayerStatistic from "../../PlayerStatistic/PlayerStatistic";
 import Banner from "../Banner/Banner";
 import Counter from "../Counter/Counter";
 import Fans from "../Fans/Fans";
@@ -21,6 +23,8 @@ const Home = () => {
       <Travel />
       <Fans />
       <Counter />
+      <Biography />
+      <PlayerStatistic />
     </div>
   );
 };
